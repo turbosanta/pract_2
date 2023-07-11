@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url("https://www.perfectstock.ru/files/preview/1280x722/hu-picchu-4258x2399-23289-11578645874u90ssufiqhyxd3ywakflu2airelljmciylveek83vuru9mek9eac9t0aa8w690pz0vz2hni6bbfkiwtq3gvt5u0prgg9jqlidog1.jpg") bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: bisque;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.news1 {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.news1::before {
+    content: "New";
+}
+
+.news3 {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.news5 {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.news2 {
+    background-color: #0085a1;
+    padding: 50px 0 32px;
+}
+
+.news2::before {
+    content: "New";
+}
+
+.news4 {
+    background-color: #0085a1;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128;)
+}
+
+article a {
+    color: rgb(32, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links > {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125)
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
